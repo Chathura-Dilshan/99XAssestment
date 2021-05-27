@@ -1,0 +1,11 @@
+INSERT INTO assessment."user" (user_seq, created_by, created_date, last_modified_by, last_modified_date, status, email, first_name, password, user_type, username) VALUES (1, 'test', '2021-05-26 15:03:03.005000', null, null, 2, 'test', 'test@gmail.com', '123456', 'GUEST_USER', 'test');
+INSERT INTO assessment.role (role_seq, created_by, created_date, last_modified_by, last_modified_date, status, role_name) VALUES (4, 'test', '2021-05-26 15:03:52.989000', null, null, 2, 'createItem');
+INSERT INTO assessment.role (role_seq, created_by, created_date, last_modified_by, last_modified_date, status, role_name) VALUES (5, 'test', '2021-05-26 15:03:52.989000', null, null, 2, 'user');
+INSERT INTO assessment.role (role_seq, created_by, created_date, last_modified_by, last_modified_date, status, role_name) VALUES (2, 'test', '2021-05-26 15:03:52.989000', null, null, 2, 'dashboard');
+INSERT INTO assessment.role (role_seq, created_by, created_date, last_modified_by, last_modified_date, status, role_name) VALUES (3, 'test', '2021-05-26 15:03:52.989000', null, null, 2, 'item');
+INSERT INTO assessment.role (role_seq, created_by, created_date, last_modified_by, last_modified_date, status, role_name) VALUES (1, 'test', '2021-05-26 15:03:52.989000', null, null, 2, 'login');
+INSERT INTO assessment.user_role (user_seq, roles_role_seq) VALUES (1, 1);
+INSERT INTO assessment.user_role (user_seq, roles_role_seq) VALUES (1, 2);
+INSERT INTO assessment.user_role (user_seq, roles_role_seq) VALUES (1, 3);
+INSERT INTO assessment.user_role (user_seq, roles_role_seq) VALUES (1, 4);
+INSERT INTO assessment.user_role (user_seq, roles_role_seq) VALUES (1, 5);
